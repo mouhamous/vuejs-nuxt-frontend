@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Hello {{user.username}}</h1>
-    <p>your email is: {{ user.email }}</p>
+    <p>your email: {{ user.email }}</p>
     <div>
     <b-button id="show-btn" @click="showModal">change password</b-button>
 
