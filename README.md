@@ -17,7 +17,7 @@ see [backend documention](https://github.com/mouhamous/backend-flask-api).
 git clone https://github.com/mouhamous/backend-flask-api.git
 ```
 
-
+## now you can open your browser and go to http://localhost:3000
 
 
 
