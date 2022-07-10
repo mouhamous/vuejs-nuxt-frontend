@@ -1,21 +1,26 @@
 # frontend
 
-## Build Setup
-
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+## get project 
 ```
+git clone https://github.com/mouhamous/vuejs-nuxt-frontend.git
+```
+
+## run a container for development or testing
+```
+docker-compose up 
+```
+
+## clone && start backend server 
+see [backend document](https://github.com/mouhamous/backend-flask-api).
+
+```
+git clone https://github.com/mouhamous/backend-flask-api.git
+```
+
+
+
+
+
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
