@@ -55,10 +55,11 @@ export default {
     userLogin(){
       this.$axios.post('/auth',  this.login)
       .then((response) => {
-        console.log(response)
-        localStorage.setItem("token", response.data.access_token);
-
+        let token = response.data.access_token
+        localStorage.setItem("token", token);
+        this.$router.push('/profile')
       })
+      .catch((error) => console.log(error))
     },
 
   },
