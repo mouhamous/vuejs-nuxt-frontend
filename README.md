@@ -11,7 +11,7 @@ docker-compose up
 ```
 
 ## clone && start backend server 
-see [backend document](https://github.com/mouhamous/backend-flask-api).
+see [backend documention](https://github.com/mouhamous/backend-flask-api).
 
 ```
 git clone https://github.com/mouhamous/backend-flask-api.git
